@@ -49,7 +49,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             }}
           />
         )}
-        <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
+        <div className="gap-4 columns-1 sm:columns-2 xl:columns-3 2xl:columns-4">
           
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
@@ -58,11 +58,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               as={`/p/${id}`}
               ref={id === Number(lastViewedPhoto) ? lastViewedPhotoRef : null}
               shallow
-              className="after:content group relative mb-5 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
+              className="relative block w-full mb-5 after:content group cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
             >
               <Image
                 alt="Next.js Conf photo"
-                className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
+                className="transition transform rounded-lg brightness-90 will-change-auto group-hover:brightness-110"
                 style={{ transform: 'translate3d(0, 0, 0)' }}
                 placeholder="blur"
                 blurDataURL={blurDataUrl}
@@ -79,23 +79,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Images by{' '}
+        Images for Wheel Rail Conference 2024 held in Chicago. Visit the{' '}
         <a
-          href="https://sparker888.com/"
+          href="https://wri.wheel-rail-seminars.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Stephen Parker
-        </a>
-        . Return to{' '}
-        <a
-          href="https://sparker888.com/"
-          target="_blank"
-          className="font-semibold hover:text-white"
-          rel="noreferrer"
-        >
-          sparker888.com
+          conference website.
         </a>.
       </footer>
     </>
