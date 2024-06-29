@@ -6,7 +6,7 @@ module.exports = {
         protocol: 'https',
         hostname: 'res.cloudinary.com',
         port: '',
-        pathname: '/gravital-digital/**',
+        pathname: '/dsp9qnm8f/**',
       },
     ],
   },
