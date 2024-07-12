@@ -79,7 +79,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Images for Wheel Rail Interaction (WRI) Conference 2024 held in Chicago. Visit the{' '}
+        Gallery for the 2024 Wheel Rail Interaction (WRI) Conference held in Chicago. Visit the{' '}
         <a
           href="https://wri.wheel-rail-seminars.com/"
           target="_blank"
