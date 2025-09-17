@@ -79,7 +79,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Gallery for Wheel Rail Interaction (WRI) Conference produced by Wheel Rail Seminars. Visit our{' '}
+        Photo gallery for Wheel Rail Interaction (WRI) Conference produced by Wheel Rail Seminars. Visit our{' '}
         <a
           href="https://wheel-rail-seminars.com/"
           target="_blank"
