@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>WRI 2024 Photo Gallery</title>
+        <title>WRI Photo Gallery</title>
         <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
@@ -79,14 +79,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Gallery for the 2024 Wheel Rail Interaction (WRI) Conference held in Chicago. Visit the{' '}
+        Gallery for Wheel Rail Interaction (WRI) Conference produced by Wheel Rail Seminars. Visit our{' '}
         <a
-          href="https://wri.wheel-rail-seminars.com/"
+          href="https://wheel-rail-seminars.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-        conference website
+        company website
         </a>.
       </footer>
     </>
